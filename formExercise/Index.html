@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<form id="formExercise">
+    <fieldset style="color: rgb(0, 92, 99);">
+            <legend><b>Contact</b></legend>
+
+        <div class="all">
+            <div>
+                <label for="name">Name</label> <br>
+                <input size="19" type="text" name="nameForm" id="name"
+                autocomplete="name">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail</label> <br>
+                <input size="19" type="email" id="email" name="emailForm"
+                autocomplete="email">
+            </div>
+            <br>
+            <div>
+                <label for="text">Message</label> <br>
+                <textarea name="messageForm" id="text"
+                cols="19" rows="7" wrap="hard"
+                placeholder="Write down here"></textarea>
+            </div>
+        </div>
+            <br>
+            <button class=relative type="submit" form="formExercise">Submit</button>
+
+    </fieldset>
+</form>
+</body>
+</html>

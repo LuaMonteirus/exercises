@@ -1,0 +1,15 @@
+button.relative {
+  background-color: rgb(175, 230, 240);
+  box-sizing: border-box;
+  position: relative;
+  left: 48%;
+  bottom: 10px;
+}
+
+#formExercise {
+  background-color: rgb(243, 255, 139);
+}
+
+div.all {
+  text-align: center;
+}
